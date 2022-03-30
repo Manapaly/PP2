@@ -53,6 +53,6 @@ while True:
         if event.type == pygame.QUIT:
             exit()
     angle_for_sec-=6
-    angle_for_min-= 1/60
+    angle_for_min-= 1/10
     pygame.display.flip()
     clock.tick(1)
